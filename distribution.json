@@ -1,0 +1,628 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "RPG-1.12.2",
+      "name": "RPG (Minecraft 1.12.2)",
+      "description": "RPG Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "ueung.kro.kr",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466148,
+            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
+            "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2860",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 11799,
+                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://sudden1234.github.io/D1sTr13ution/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.mgen256.al:additional_lights:1.12.2-1.2.1@jar",
+          "name": "Additional Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 335705,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/additional_lights-1.12.2-1.2.1.jar",
+            "MD5": "9b90a57fccb0ed6137fe191baf63832b"
+          }
+        },
+        {
+          "id": "com.builtbroken.ai.improvements:AI-Improvements:1.12-0.0.1b3@jar",
+          "name": "AI-Improvements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7266,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/AIImprovements-1.12-0.0.1b3%20(1).jar",
+            "MD5": "b7530d2707a004353219ac8beceec173"
+          }
+        },
+        {
+          "id": "com.charles445:aireducer:1.12.2-0.3.0@jar",
+          "name": "AI Reducer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 85307,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/AIReducer-1.12.2-0.3.0.jar",
+            "MD5": "37a0a342994190853f7932656c5f13b9"
+          }
+        },
+        {
+          "id": "com.elytradev.architecture:architecturecraft:Mod-1.12.2@jar",
+          "name": "ArchitectureCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 921733,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/ArchitectureCraft-Mod-1.12.2.jar",
+            "MD5": "cc964d41fad4832a0850cf9da45d0414"
+          }
+        },
+        {
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2678747,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/Armourers-Workshop-1.12.2-0.51.0.jar",
+            "MD5": "12954551f39bed840b32fd8be8fddb54"
+          }
+        },
+        {
+          "id": "com.example.customhud:customhudmod:1.0@jar",
+          "name": "Custom HUD Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4243,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/ArtifactId-1.0.0.jar",
+            "MD5": "20945ed8bd6eaa39c306d0f115002c9e"
+          }
+        },
+        {
+          "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
+          "name": "BetterFps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 155196,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/BetterFps-1.4.8%20(2).jar",
+            "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
+          }
+        },
+        {
+          "id": "mchorse.blockbuster:blockbuster:2.7.1-1.12.2@jar",
+          "name": "Blockbuster",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1965333,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/blockbuster-2.7.1-1.12.2.jar",
+            "MD5": "f40caa1d9a3cc9221d0882cd8fcdcb41"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:6.3.2@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2439199,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/cfm-6.3.2-1.12.2.jar",
+            "MD5": "c337d9b9b5465ba6ac78a2ca9f3dbf7c"
+          }
+        },
+        {
+          "id": "com.creativemd:creativecore:1.10@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320474,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/CreativeCore_v1.10.70_mc1.12.2.jar",
+            "MD5": "2c1f06ceb07b1bb20c79ad4991a48f7b"
+          }
+        },
+        {
+          "id": "generated.forgemod:customitems:1.0.9 beta@jar",
+          "name": "Meta Mod: Custom Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 363588,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/customitems-1.0.9_beta_1.7.10.jar",
+            "MD5": "9043081fac029ddca28c56daa89ed0b5"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.12@jar",
+          "name": "CustomNPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10440159,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/CustomNPCs_1.12.2-(01Oct19).jar",
+            "MD5": "e8f289624d99a67ee3b78c6524b96b45"
+          }
+        },
+        {
+          "id": "org.orecruncher:dsurround:1.12.2-3.6.0.2@jar",
+          "name": "Dynamic Surroundings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16014866,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/optionalon/DynamicSurroundings-1.12.2-3.6.0.2%20(1).jar",
+            "MD5": "b587a5c7a4791894a3531577e4bbec81"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "mchorse.mappet:mappet:0.9-1.12.2@jar",
+          "name": "Mappet",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2481950,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/mappet-0.9-1.12.2.jar",
+            "MD5": "ad278faf5696975b2e139e7ff55cecb5"
+          }
+        },
+        {
+          "id": "mchorse.mclib:mclib:2.4.3-1.12.2@jar",
+          "name": "McLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 767461,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/mclib-2.4.3-1.12.2.jar",
+            "MD5": "99926b655d86cc15823ec350138bf27e"
+          }
+        },
+        {
+          "id": "jp.ngt:mcte:2.4.12@jar",
+          "name": "MCTerrainEditor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 280214,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/MCTE2.4.12-26_forge-1.12.2-14.23.2.2611.jar",
+            "MD5": "800b5071ebc23969319d4eccc765338b"
+          }
+        },
+        {
+          "id": "mchorse.metamorph:metamorph:1.4-1.12.2@jar",
+          "name": "Metamorph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 421252,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/metamorph-1.4-1.12.2.jar",
+            "MD5": "e54a9cd422bb876fd4805486198520b3"
+          }
+        },
+        {
+          "id": "net.mcreator:moremobss:1.0.0@jar",
+          "name": "More Mobss",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 906591,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/More+Mobs+1.12.2.jar",
+            "MD5": "e72158cf01a8f145f0ed5adf328c60a3"
+          }
+        },
+        {
+          "id": "nefdecomod:nefdecomod:0.9@jar",
+          "name": "Nef Deco Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3685608,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/NefsMedievalPub+v0.9(1.12.2)%20(1).jar",
+            "MD5": "2e428df16eeeec997005ddf21ecefbc4"
+          }
+        },
+        {
+          "id": "jp.ngt:ngtlib:2.4.21@jar",
+          "name": "NGTLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 369465,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/NGTLib2.4.21-38_forge-1.12.2-14.23.2.2611.jar",
+            "MD5": "f22e0ee32b9d142a0d69431d15dc62d3"
+          }
+        },
+        {
+          "id": "com.creativemd.opf:opframe:1.1@jar",
+          "name": "OnlinePictureFrame",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 79452,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/OnlinePicFrame_v1.5.0-pre1_mc1.12.2%20(1).jar",
+            "MD5": "f893cc9f646633a93af60e79dc295f96"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_E3@jar",
+          "name": "OptiFine 1.12.2_HD_U_E3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2444057,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_E3.jar",
+            "MD5": "7ec95c57ac1a224d6eb93bd370e4ac37"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.orecruncher:orelib:1.12.2-3.6.0.1@jar",
+          "name": "OreLib Support Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 341728,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/OreLib-1.12.2-3.6.0.1.jar",
+            "MD5": "00cce3b240365458adcad3e77782358a"
+          }
+        },
+        {
+          "id": "net.mcreator:stonemode:1.0.0@jar",
+          "name": "StoneMode",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 249527,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/forgemods/required/UpgradeStone.jar",
+            "MD5": "5bad85c670d67bd6f04c752bbd5b2348"
+          }
+        },
+        {
+          "id": "Copy.cfg",
+          "name": "Copy.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 19,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/files/mcte/filter/Copy.cfg",
+            "MD5": "f6b4fa9469b6d95f333d4f7217964377",
+            "path": "mcte/filter/Copy.cfg"
+          }
+        },
+        {
+          "id": "Cut.cfg",
+          "name": "Cut.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 19,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/files/mcte/filter/Cut.cfg",
+            "MD5": "f6b4fa9469b6d95f333d4f7217964377",
+            "path": "mcte/filter/Cut.cfg"
+          }
+        },
+        {
+          "id": "Delete.cfg",
+          "name": "Delete.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 19,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/files/mcte/filter/Delete.cfg",
+            "MD5": "f6b4fa9469b6d95f333d4f7217964377",
+            "path": "mcte/filter/Delete.cfg"
+          }
+        },
+        {
+          "id": "DeleteEntity.cfg",
+          "name": "DeleteEntity.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/files/mcte/filter/DeleteEntity.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "mcte/filter/DeleteEntity.cfg"
+          }
+        },
+        {
+          "id": "Fill.cfg",
+          "name": "Fill.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 74,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/files/mcte/filter/Fill.cfg",
+            "MD5": "df6cd738df4d7d0684cfc855cd3b1529",
+            "path": "mcte/filter/Fill.cfg"
+          }
+        },
+        {
+          "id": "FillSurface.cfg",
+          "name": "FillSurface.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/files/mcte/filter/FillSurface.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "mcte/filter/FillSurface.cfg"
+          }
+        },
+        {
+          "id": "Paste.cfg",
+          "name": "Paste.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 17,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/files/mcte/filter/Paste.cfg",
+            "MD5": "0d7d99aae5e62c195c5712fc05a80e29",
+            "path": "mcte/filter/Paste.cfg"
+          }
+        },
+        {
+          "id": "PerlinNoise.cfg",
+          "name": "PerlinNoise.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 88,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/files/mcte/filter/PerlinNoise.cfg",
+            "MD5": "01879e2ded0991800f3eea2fd10c0e51",
+            "path": "mcte/filter/PerlinNoise.cfg"
+          }
+        },
+        {
+          "id": "Random.cfg",
+          "name": "Random.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 15,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/files/mcte/filter/Random.cfg",
+            "MD5": "579804dc2a459f3f7c6195fa720fe917",
+            "path": "mcte/filter/Random.cfg"
+          }
+        },
+        {
+          "id": "sample_0.ngto",
+          "name": "sample_0.ngto",
+          "type": "File",
+          "artifact": {
+            "size": 672,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/files/mcte/structure/sample_0.ngto",
+            "MD5": "68cc34f6cc54ab71311bc6f021109505",
+            "path": "mcte/structure/sample_0.ngto"
+          }
+        },
+        {
+          "id": "sample_1.ngto",
+          "name": "sample_1.ngto",
+          "type": "File",
+          "artifact": {
+            "size": 600,
+            "url": "https://sudden1234.github.io/D1sTr13ution/servers/RPG-1.12.2/files/mcte/structure/sample_1.ngto",
+            "MD5": "0d699111c7a55c7b3958fd07add3149f",
+            "path": "mcte/structure/sample_1.ngto"
+          }
+        }
+      ]
+    }
+  ]
+}

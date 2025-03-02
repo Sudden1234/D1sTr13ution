@@ -1,0 +1,25 @@
+{
+  "$schema": "file:///C:/Nebula/workspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "RPG (Minecraft 1.12.2)",
+    "description": "RPG Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
+    "icon": "https://cdn.discordapp.com/attachments/1100036756130238537/1345660981652623430/nbbggb-removebg-preview.png?ex=67c55bf3&is=67c40a73&hm=b149e51e15f88fe4015596e730121aeafa9debfb57eaed5203e2e488f5493ca6&",
+    "address": "ueung.kro.kr",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "server": {
+    "ip": "ueung.kro.kr",
+    "port": 25565
+    },
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "14.23.5.2860"
+  },
+  "untrackedFiles": []
+}
